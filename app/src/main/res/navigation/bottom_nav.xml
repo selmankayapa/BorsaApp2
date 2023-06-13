@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.borsaapp.MenuFragment.homeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/haberFragment"
+        android:name="com.example.borsaapp.MenuFragment.haberFragment"
+        android:label="fragment_haber"
+        tools:layout="@layout/fragment_haber" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.borsaapp.MenuFragment.profileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/exitFragment"
+        android:name="com.example.borsaapp.MenuFragment.exitFragment"
+        android:label="fragment_exit"
+        tools:layout="@layout/fragment_exit" />
+</navigation>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_theme"
+    tools:context=".MenuFragment.profileFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="49dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="45dp"
+                    android:text="HESABIM"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="32dp"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/portföy"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:drawableLeft="@drawable/account"
+                        android:text="PORTFÖY"
+
+
+                        />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/halka_arz"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:text="Halka Arz" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/futures"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:text="Vadeli İşlemler" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/hisseAlSat"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:text="Hisse Alış/Satış" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/viop"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:text="Viop Teminat Yatırma/Çekme" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/passChange"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:text="Şifre Güncelleme" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/deleteAccount"
+                        android:layout_width="154dp"
+                        android:layout_height="75dp"
+                        android:text="HESABI SİL" />
+
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

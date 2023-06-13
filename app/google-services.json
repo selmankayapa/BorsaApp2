@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "643734116109",
+    "project_id": "borsaapp-bd89a",
+    "storage_bucket": "borsaapp-bd89a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643734116109:android:42769ab335c1ec8c844244",
+        "android_client_info": {
+          "package_name": "com.example.borsaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvktJPajfWSXsVfY14SmeeTt88O03-dKY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
